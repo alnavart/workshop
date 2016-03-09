@@ -2,3 +2,12 @@ info.build:
   name: ${name}
   description: ${description}
   version: ${version}
+
+spring:
+  application:
+    name: ${name}
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
